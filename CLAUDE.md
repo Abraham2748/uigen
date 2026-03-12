@@ -89,6 +89,9 @@ Two primary React contexts manage application state:
 
 ## Development Guidelines
 
+### Code Style
+- Use comments sparingly. Only comment complex code. Code should be self-explanatory through clear naming and structure.
+
 ### File Conventions
 - Entry point for generated apps: Always `/App.jsx` (required by the system prompt)
 - Import alias: `@/` resolves to virtual FS root (`/`)
